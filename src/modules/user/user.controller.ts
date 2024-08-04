@@ -7,7 +7,7 @@ export class UserController{
 
     @Get()
 
-    getUserPassword(): string{
-        return this.userService.getUserPassword();
+    async getUserPassword(): Promise<string>{
+        return await this.userService.getUserPassword();
     }
 }
