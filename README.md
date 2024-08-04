@@ -11,7 +11,6 @@
 
 Clone o repositório:
 
-bash
 ``````
   git clone https://github.com/seu-usuario/PasswordGenerator.git
   cd PasswordGenerator
@@ -21,14 +20,12 @@ bash
 
 ##### Certifique-se de ter o Node.js instalado. Em seguida, execute:
 
-bash
 ``````
   npm install
 ``````
 
 ### Inicie o servidor:
 
-bash
 ``````
   npm run start
 ``````
